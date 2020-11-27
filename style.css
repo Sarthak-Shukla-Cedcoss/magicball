@@ -1,0 +1,38 @@
+.headformat{
+    background-color: rgb(215, 188, 241);
+}
+body{
+    font-family: 'Dosis', sans-serif;
+}
+#div1{
+    margin-top:2% ;
+}
+#div2{
+    display: none;
+    margin-top:10% ;
+}
+#div3{
+    display: none;
+    margin-top:2% ;
+}
+#div4{
+    display: none;
+    margin-top:5% ;
+}
+#div5{
+    display: none;
+    margin-top:2% ;
+}
+.logo{
+    color:rgb(233, 56, 56);
+}
+img {
+    border-radius: 50%;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+            transition:         transform .8s ease-in-out;
+  }
+  img:hover {
+     
+       -webkit-transform: rotate(360deg);
+         transform: rotate(360deg);
+  }

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap" rel="stylesheet">
+    <title>Magic8Ball</title>
+</head>
+<body class="text-center">
+    <header class="headformat">
+		<div class="container text-center ">
+		    <h1>Magic <span class="logo">8</span> Ball</h1>
+        </div>
+    </header>
+    <div class="container">
+    <div id="div1" class="row justify-content-center img-fluid" >
+        <div class="col-md-12 col-lg-12 col-sm-12"><img src="ball.png" style="width:50%; height: auto;"></div>
+        <div class=col-12>
+            <h2>Hi.. I am Magic 8 Ball</h2>
+            <h3>Please Enter your Name to continue...</h3>
+            <input type="text" id="userName" placeholder="Name">
+            <button type="button" class="btn btn-info" id="userNameBtn" onclick="clickbutton()">Let's Begin</button>
+        </div>
+    </div>
+    <div id='div2'>
+        <h1> Hi <span id="userNameDisplay">NAME </span> ! </h1>
+        <h3>Welcome To Magic Eight 8 Ball</h3>
+        <button type="button" class="btn btn-primary" id="userNameBtn" onclick="clickbutton1()">CONTINUE</button>
+    </div>
+    <div id='div3'>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap" rel="stylesheet">       <img src="ball1.png">
+        <h2 id="question"></h2>
+        <h3 id="answer"></h3>
+        <button type="button" class="btn btn-warning" id="userNameBtn" onclick="quit()">QUIT</button>
+        <button type="button" id="userNameBtn" class="btn btn-success" onclick="clickbutton1()">NEXT</button>
+
+    </div>
+    <div id="div4">
+        <div>
+        <img src="gif1.gif">
+    </div>
+        <h1>THANK YOU</h1><header class="headformat">
+            <div class="container text-center ">
+                <h1>Magic <span class="logo">8</span> Ball</h1>
+            </div>
+        </header>
+    </div>
+    <div id="div5">
+        <div><img src="quit.png"></div>
+        <div><h3>Are you really want to Quit ???</h3></div>
+        <button type="button" class="btn btn-danger" id="userNameBtn" onclick="quit1()">QUIT</button>
+    </div>
+</div>
+
+</body>
+<script src="main.js"></script>
+</html>
