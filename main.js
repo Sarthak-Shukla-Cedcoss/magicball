@@ -34,7 +34,7 @@ function clickbutton1(){
     y.style.display = "none";
     let x=document.getElementById("div3");
     x.style.display = "block";
-    setTimeout(showPage,3000);
+    setTimeout(showPage,2000);
     randomNumber=Math.floor(Math.random() * 21);
     document.getElementById("question").innerHTML=userQuestion[index];
     document.getElementById("answer").innerHTML=userAnswer[randomNumber];
