@@ -20,7 +20,7 @@
     </header>
     <div class="container">
     <div id="div1" class="row justify-content-center img-fluid" >
-        <div class="col-md-12 col-lg-12 col-sm-12"><img src="ball.png" style="width:50%; height: auto;"></div>
+        <div class="col-md-12 col-lg-12 col-sm-12"><img src="ball.png" class="img1" style="width:50%; height: auto;"></div>
         <div class=col-12>
             <h2>Hi.. I am Magic 8 Ball</h2>
             <h3>Please Enter your Name to continue...</h3>
@@ -35,9 +35,13 @@
     </div>
     <div id='div3'>
         <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap" rel="stylesheet">       <img src="ball1.png">
+        <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap" rel="stylesheet">      
+        <img src="ball1.png" class="img1">
         <h2 id="question"></h2>
-        <h3 id="answer"></h3>
+        <div id="loader" class="row justify-content-center" style="text-align: -webkit-center;margin-bottom: 20px;">
+          Loading...  <div  class="loader col-3"></div>
+        </div>
+        <div id="ans" style="display:none;"><h3 id="answer" ></h3></div>
         <button type="button" class="btn btn-warning" id="userNameBtn" onclick="quit()">QUIT</button>
         <button type="button" id="userNameBtn" class="btn btn-success" onclick="clickbutton1()">NEXT</button>
 
